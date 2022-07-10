@@ -43,9 +43,13 @@ body{
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
+
 .header-link {
 	color: var(--primary-text-color);
 	text-decoration: none;
+}
+.active-link{
+	color: var(--hover-color);
 }
 .header-link:hover,
 .header-link:focus {
