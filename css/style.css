@@ -38,7 +38,6 @@ body{
 }
 
 .header-list {
-	font-size: 14px;
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
@@ -73,11 +72,14 @@ body{
 	letter-spacing: 0.06em;
 	text-align: center;
 }
+           /* BUTTONS */
+			  
 .button {
 	display: block;
 	cursor: pointer;
 	background-color: #F5F4FA;
 	color: var(--primary-text-color);
+	font-family: 'Roboto';
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 1.87;
@@ -98,8 +100,6 @@ body{
 
 
 .section-text {
-	font-style: normal;
-	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
 	color: var(--artical-color-text);
@@ -108,7 +108,6 @@ body{
 .section-subtitle {
 	color: var(--sub-title-color);
 	font-weight: 700;
-	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
@@ -174,14 +173,12 @@ body{
 
 .footer-text {
 	color: var(--seconadary-text-color);
-		font-size: 14px;
 		line-height: 24px;
 		letter-spacing: 0.03em;
 		text-align: left;
 }
 .footer-link {
 	color: #FFFFFF99;
-	font-size: 14px;
 	font-weight: 400;
 	line-height: 24px;
 	letter-spacing: 0.03em;
