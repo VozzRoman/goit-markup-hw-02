@@ -58,6 +58,8 @@ body{
 	color: var(--artical-color-text);
 }
 
+/* --------Home page-------- */
+
 /* section 1 */
 .section-one {
 	background-color:var(--section-bg-color);
@@ -86,6 +88,10 @@ body{
 	letter-spacing: 0.06em;
 	text-align: center;
 	margin: 0 auto;
+}
+.button-active {
+	background-color:var(--hover-color);
+	color: #FFFFFF;
 }
 .button:hover,
 .button:focus {
@@ -141,7 +147,7 @@ body{
 	letter-spacing: 0.03em;
 }
 
-/* portfolio page */
+/* --------portfolio page--------- */
 
 /* section 1 */
 .porfolio-link {
