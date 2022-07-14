@@ -12,6 +12,7 @@
 	--button-color:#F5F4FA;
 	--footer-link-color:#FFFFFF99;
 	--section-foure-color:#E5E5E5;
+	--second-word-color:#000000;
 }
 
 
@@ -30,7 +31,7 @@ body{
 /* header */
 .logo {
 	text-decoration: none;
-	color: #000000;
+	color:var(--second-word-color) ;
 	font-family: 'Raleway';
 	font-weight: 700;
 	font-size: 26px;
