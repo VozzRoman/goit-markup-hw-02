@@ -7,11 +7,15 @@
 	--primary-background: #FFFFFF;
 	--section-bg-color: #2F303A;
 	--hover-color: #2196F3;
-	
+	--active-color:#2196F3;
+	--first-word-color:#2196F3;
+	--button-color:#F5F4FA;
+	--footer-link-color:#FFFFFF99;
+	--section-foure-color:#E5E5E5;
 }
 
 
-.padding-list{
+ul{
 	list-style-type: none;
 	padding: 0;
 	
@@ -33,8 +37,8 @@ body{
 	line-height: 1.9;
 	letter-spacing: 0.03em;
 }
-.logo span{
-	color: #2196F3;
+.logo-color{
+	color: var(--first-word-color) ;
 }
 
 .header-list {
@@ -48,7 +52,7 @@ body{
 	text-decoration: none;
 }
 .active-link{
-	color: var(--hover-color);
+	color: var(--active-color);
 }
 .header-link:hover,
 .header-link:focus {
@@ -79,9 +83,9 @@ body{
 .button {
 	display: block;
 	cursor: pointer;
-	background-color: #F5F4FA;
+	background-color: var();
 	color: var(--primary-text-color);
-	font-family: 'Roboto';
+	font-family: inherit;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 1.87;
@@ -91,11 +95,11 @@ body{
 }
 .button-active {
 	background-color:var(--hover-color);
-	color: #FFFFFF;
+	color: var(--seconadary-text-color);
 }
 .button:hover,
 .button:focus {
-	color: #ffff;
+	color: var(--seconadary-text-color);
 	background-color: var(--hover-color);
 
 }
@@ -114,6 +118,7 @@ body{
 .section-subtitle {
 	color: var(--sub-title-color);
 	font-weight: 700;
+	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
@@ -130,6 +135,9 @@ body{
 }
 
 /* section 4 */
+.section-foure{
+	background-color: var(--section-foure-color);
+}
 .team-title {
 	color: var(--primary-text-color);
 	font-weight: 500;
@@ -174,23 +182,23 @@ body{
 	background-color: var(--section-bg-color);
 }
 .footer-logo{
-	color: #FFFFFF;
+	color: var(--seconadary-text-color);
 }
 
 .footer-text {
 	color: var(--seconadary-text-color);
-		line-height: 24px;
+		font-style: normal;
+		line-height: 0.6;
 		letter-spacing: 0.03em;
 		text-align: left;
 }
 .footer-link {
-	color: #FFFFFF99;
-	font-weight: 400;
-	line-height: 24px;
+	color: var(--footer-link-color);
+	font-style: normal;
+	line-height: 0.6;
 	letter-spacing: 0.03em;
-	text-align: left;
 	text-decoration: none;
 }
 .footer-link:hover, .footer-link:focus {
-	text-decoration: underline;
+	color: var(--hover-color);
 }
